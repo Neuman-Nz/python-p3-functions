@@ -1,16 +1,40 @@
 #!/usr/bin/env python3
 
+# quiz 1
 def greet_programmer():
-    pass
+    
+    print("Hello, programmer!")
 
+# quiz 2
 def greet(name):
-    pass
+    
+    return ("hello, {name}!")
 
+greet("Naureen")
+
+# quiz 3
 def greet_with_default(name="programmer"):
-    pass
+    print(f"Hello, {name}!")
 
+greet_with_default("Sunny")
+
+# quiz 4
 def add(num1, num2):
-    pass
+    sum = num1 + num2
+    return sum
 
+result = add(8, 10)
+print(result)
+
+# quiz 5
 def halve(number):
-    pass
+      if type(number) in (int, float):
+        return number / 2
+      else:
+        return None
+
+result = halve(4)
+print(result)
+
+result = halve("two")
+print(result)
